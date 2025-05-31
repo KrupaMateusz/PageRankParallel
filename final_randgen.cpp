@@ -46,7 +46,7 @@ void generate_graph(int num_vertices, double density) {
 int main() {
     const double density = 0.20;
 
-    for (int v = 5000; v <= 12000; v += 1000) {
+    for (int v = 5000; v <= 13000; v += 2000) {
         generate_graph(v, density);
         cout << "Wygenerowano plik dla " << v << " wierzchołków\n";
     }
